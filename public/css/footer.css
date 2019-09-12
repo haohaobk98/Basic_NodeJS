@@ -1,0 +1,185 @@
+
+ /* ============ MAIN LAYOUT ===========*/
+ #main_wrapper {
+ 
+ margin-left:auto;
+ margin-right:auto;
+ text-align:left;
+ background-color:#f1f1f1;
+ }
+ #threecolwrap {
+ float:left;
+ width:100%;
+ }
+#twocolwrap {
+ float:left;
+ width:100%;
+/* display:inline;*/
+ margin-right:-400px;
+
+ }
+#footer_header {
+	background-color:#f1f1f1;
+	margin-bottom:2em;
+ }
+#footer_nav {
+float:left;
+ width:400px;
+  /*display:inline;  #5c755e;*/
+ background-color:#f1f1f1;
+
+ }
+/* ---------------------------------FOOTER_PROMO---------------------------------------*/
+#footer_promo {
+width:400px;
+ float:left;
+ background-color:#f1f1f1;
+ }
+ #footer_promo h2{
+	 padding:0.5em;
+	 margin-bottom:1em;
+ }
+  #footer_promo_inner{
+	  width:80%;
+	  margin-left:1.5em;
+	  height:200px;
+	  
+  }
+ #footer_promo_inner_refer{
+	 
+	 overflow-y:scroll;
+	height:90%;
+ }
+#footer_promo_inner ul li{
+	padding:0.5em;
+	
+}
+#footer_promo_inner ul li a{
+	text-decoration:none;
+	color:#000;
+}
+.fa-angle-double-down{
+	
+    padding-right: 1px;
+}
+
+ /*=============== INNER ============*/
+ #footer_header_inner, #footer_nav_inner, #footer_content_inner, #footer_promo_inner {
+ overflow:hidden;
+ }
+#footer_header_inner {
+ padding:1em 2em;
+ }
+ #footer_nav_inner {
+ width:100%;
+ text-align:center;
+ }
+ 
+ #footer_nav_inner_image{
+	 margin:1em 0 0.5em 0;
+	 display:block;
+	 text-align:center;
+	 
+ }
+ #footer_nav_inner_content{
+	 padding:1em 2em;
+	 margin-left:1em;
+	 margin-bottom:2em;
+	 line-height:1.5em;
+	 
+ }
+
+ #footer_content {
+ /*width:auto;*/
+ margin-left:400px;
+ margin-right:400px;
+ background-color:#f1f1f1;
+ }
+#footer_content_inner {
+ padding:1em 1em;
+ width:100%;
+ line-height:2em;
+ padding:0.5em;
+ 
+ }
+ #footer_content_inner_contact{
+	 font-size:1.5em;
+	 margin-bottom:1.5em;
+	 
+ }
+ 
+ .footer_contact{
+	 margin-bottom:0.5em;
+ }
+  .footer_contact a{
+	  color:#000;
+	  text-decoration:none;
+  }
+   .footer_contact a:hover{
+	  color:#AAA;
+  }
+ 
+ /*--------------------------FOOTER-FOOTER -------------------------- */
+ #footer {
+ clear:both;
+ background-color:#f1f1f1;
+ margin-left :3em;
+ margin-right:4em;
+ }
+#footer_inner {
+padding:2em 1em;
+ line-height:1.5em;
+ width:100%;
+ }
+ #footer_inner h3{
+	 margin: 10px 0px 5px;
+ }
+  #footer_inner a{
+	  text-decoration:none;
+	  color:#000;
+  }
+   #footer_inner a:hover{
+	   color:#AAA;
+   }
+  .footer_register{
+	  margin-top:1em;
+  }
+  .footer_form-register{
+	  margin-top:1em;
+  }
+  .footer_form-register input {
+    height: 40px;
+    width: 20%;
+    float: left;
+    border: none;
+}
+.footer_form-register button.btn-register {
+    height: 40px;
+    float: left;
+    width: 10%;
+    background: #ef4165;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+}
+ /* ==================== menu footer ===================*/
+ .menu-footer {
+	 list-style:none;
+	 margin:2em 0;
+	 text-align:center;
+ }
+ .menu-footer  li {
+	 display:inline;
+	 padding : 1em;
+	 margin:0 2em;
+	 font-size:1.1em;
+	 
+ }
+ .menu-footer  li a{
+	 text-decoration:none;
+	 color:#000;
+ }
+ .menu-footer  li a:hover{
+	 color:#AAA;
+ }
+ 

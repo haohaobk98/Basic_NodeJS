@@ -1,0 +1,79 @@
+	<!-- HEADER STARTS HERE -->
+    <div id="header">
+         <div id="header-inner1">
+            <div id = "header-inner1-image">
+                <div id = "header-inner1-image-inner">
+                    <img src ="https://moki.vn/moki/themes/img/logo_big.png" alt ="Moki.vn - Ứng dụng mua bán trên di động | moki.vn" class = "image" >
+                </div>
+            </div>
+            <div id ="header-inner1-title"> 
+                <p> Chào mừng bạn đến với Moki - Trang website bán hàng lớn nhất thế giới!</p> 
+            </div>
+            <div class = "header1-inner-link">
+                <div id="header1-inner-link-inner">
+            <div class     ="header-inner-link">
+              <ul>
+                <li><a href=#>History</a></li>
+                <li><a href=#>Events</a></li>
+                <li><a href=#>Voucher</a></li>
+              </ul>
+           </div>
+             <div id ="header1-inner-link2">
+              <a href="https://www.facebook.com/moki.vn" target="_blank"> <i class = "fa fa-facebook-square"></i></a>
+              <a href="https://www.youtube.com/channel/UCM7dLGfHJ6onxoY3StztfwQ/" target="_blank"> <i class = "fa fa-youtube-square"></i></a>
+              <a href="https://twitter.com/MOKI_VN" target="_blank"> <i class = "fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/moki.vn/" target="_blank"> <i class = "fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com/moki.vn/" target="_blank"> <i class = "fa fa-skype"></i></a>
+              <a href="https://www.instagram.com/moki.vn/" target="_blank"> <i class = "fa fa-globe"></i></a>
+            </div>
+        </div>
+            </div>
+        </div>
+ <div id ="header-inner2">
+   <div id="header-inner2-search">
+    <form action="" method="get" class="header-inner2-form" id="ProductsSearchProductForm" role="search">
+        <input class="header-inner2-form-input" type="search" placeholder="Tìm kiếm sản phẩm"  value="" name="product_name" id="product_name" required="">
+        <button class="header-inner2-form-button" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <span class="icon__fallback-text">Submit</span>
+        </button>
+    </form>
+  </div>
+  <div class = "header-inner-link">
+      <ul>
+          <% if(!user){ %>
+          
+        
+            <li>
+              <a href="/login" >Đăng nhập</a>
+          </li>
+          <li>
+                <a href="/register" >Đăng kí</a>
+            </li>
+            <%}%>
+            <% if(user) {%>
+                <li>
+              <a href=# >Thêm sản phẩm </a> 
+          </li>
+          
+          <li>
+                <a href=# >Xóa sản phẩm</a>
+            </li>
+          <li>
+                <a href=# >Danh sách sản phẩm đăng</a>
+            </li>
+            <li>
+              <a href=# >Danh sách người theo dõi</a>
+          </li>
+          <li>
+                <a href="/followList" >Danh sách theo dõi</a>
+            </li>
+            <li>
+                    <a href=#>Đăng xuất</a>
+                </li>
+                <%}%>
+      </ul>
+  </div>
+ </div>
+     </div>
+                <!-- HEADER ENDS HERE -->

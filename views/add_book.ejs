@@ -1,0 +1,14 @@
+<% include template/header %>
+<h1>Add a new book!</h1>
+<br>
+<form method = "POST" action = "/book/add">
+    <label>Title :</label> <br>
+    <input type = "text" name="title" ><br><br>
+    <label>Author :</label> <br>
+    <input type = "text" name="author" ><br><br>
+    <label>Description :</label> <br>
+    <textarea></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<% include template/footer %>

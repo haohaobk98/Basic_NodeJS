@@ -1,0 +1,200 @@
+/*=====BODY======*/
+body{
+padding:2em;
+padding-top:0.2em;
+background-color:#dadada;
+}
+
+
+/*=====CONTAINER======*/
+#contanier{
+text-align:left;
+max-width:986px;
+min-width:730px;
+margin-left:auto;
+margin-right:auto;
+/* margin:0px auto; */
+
+}
+
+
+/*=====================INNER=================*/
+#header-inner,nav-inner,content-inner,footer-inner{
+overflow:hidden;
+}
+
+
+
+/*=====HEADER======*/
+#header{
+background-color:#f1f1f1;
+height:180px;
+margin-bottom:5em;
+}
+#header-inner1{
+padding:1em 2em;
+overflow: hidden;
+height:40%;
+background-color:gray;
+
+}
+#header-inner1-title{
+	font-size:1.5em;
+	position:relative;
+	top:-10px;
+	left:-50px;
+	float: left;
+	width:50%;
+	
+}
+#header-inner1-image{
+float:left;
+width:25%;
+}
+#header-inner1-image-inner{
+	width:100%;
+}
+
+.header-inner-link ul{
+list-style:none;
+}
+.header-inner-link ul li{
+display:inline;
+}
+.header-inner-link ul li a{
+	text-decoration:none;
+	color:#000;
+	padding:1em;
+}
+.header-inner-link ul li a:hover{
+	opacity:0.5;
+}
+
+.fa{
+	
+	padding:0.4em;
+	font-size:1.5em;
+}
+
+#header-inner2{
+	height:60%;
+	background-color:#d3d3d3;
+	}
+
+.header-inner2-form{
+margin-left:500px;
+padding-top:0.2em;
+}
+.header-inner2-form-input{
+width:400px;
+height:40px;
+border:1px solid gray;
+border-radius:5px;
+}
+.header-inner2-form-button{
+border:1px solid gray;
+border-radius:5px;
+position:relative;
+bottom:-0.2em;
+}
+
+/*=====NAVIGATION======*/
+
+#nav{
+	padding: 5px;
+	}
+	#nav_title{
+		text-align:center;
+		/*background-color:#d3d3d3;*/
+		margin:0.5em;
+		width:80%;
+		font-size:1.3em;
+		background-color: #679bef;
+		padding: 0.3em;
+	}
+	#nav-inner{
+	padding:0 0.8em;
+	width:80%;
+	background-color: #e3e7ed;
+	margin-left: 10px;
+	margin-top: 0px;
+	}
+	#nav-inner ul li{
+		padding:0.1em;
+		list-style:none;
+		border-bottom:2px solid #dadada;
+	}
+	#nav-inner ul li a{
+		text-decoration:none;
+		color:#000;
+	}
+	
+	
+	.fa-angle-double-down,.fa-angle-double-up{
+		float:right;
+	
+	}
+	/*-------GET LIST PRODUCT --------*/
+	
+	#AlphaNav li{
+		list-style:none;
+		padding:0.8em;
+		border-bottom:1px solid #dadada;
+	}
+	#AlphaNav ul li a:hover{
+		opacity:0.5;
+	}
+	.title-text{ 
+		text-decoration:none;
+		color:black;
+		
+	}
+	.fix-ul li{
+		margin-left:-2em;
+		padding:1em 0;
+	}
+	.fix-ul li a{
+		
+		text-decoration:none;
+		color:black;
+		
+	}
+	#AlphaNav ul li ul{
+		display:none;
+	}
+	#AlphaNav ul li ul li{
+		padding:0.6em 0;
+	}
+	
+
+
+/*---------------------CONTENT---------------------------*/
+#content{
+margin-left:300px;
+background-color:#f1f1f1;
+}
+#content-inner{
+padding:0 1em 1em 1.5em;
+}
+
+
+
+
+/*-----------------------------FOOOTER---------------------------------------------*/
+#footer_container{
+	clear:both;
+}
+
+
+/*--------------register-validator ----*/
+.register-validator{
+	margin:1em;
+	text-decoration:none;
+	border:1px solid #ff3333;
+	border-radius: 4px;
+	background-color: #FACE9C;
+	list-style:none;
+	width:40%;
+	height:30px;
+	padding:0.5em;
+}
